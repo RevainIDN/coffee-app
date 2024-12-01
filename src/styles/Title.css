@@ -1,0 +1,13 @@
+.title-cont {
+	width: 500px;
+	background: right / 55% no-repeat url(/public/vector.svg);
+}
+
+.title {
+	font-size: 32px;
+	margin-bottom: 10px;
+}
+
+.subtitle {
+	color: #6F757C;
+}

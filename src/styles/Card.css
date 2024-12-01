@@ -1,0 +1,68 @@
+.card {
+	position: relative;
+	margin-top: 40px;
+}
+
+.popular {
+	display: none;
+	font-size: 10px;
+	font-weight: 700;
+	position: absolute;
+	color: #111315;
+	background-color: #F6C768;
+	padding: 4px 12px;
+	border-radius: 12px;
+	top: 10px;
+	left: 10px;
+}
+
+.image {
+	border-radius: 12px;
+}
+
+.product-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 15px;
+}
+
+.product-title {
+	font-size: 16px;
+}
+
+.price {
+	font-weight: 700;
+	color: #111315;
+	background-color: #BEE3CC;
+	padding: 2px 8px;
+	border-radius: 6px;
+}
+
+.product-rate {
+	display: flex;
+	align-items: center;
+	gap: 3px;
+	margin-top: 5px;
+}
+
+.votes small {
+	color: #6F757C;
+	font-weight: 700;
+}
+
+.product-no-rate {
+	display: none;
+	align-items: center;
+	gap: 3px;
+	margin-top: 5px;
+}
+
+.sold {
+	display: none;
+	position: absolute;
+	font-size: 14px;
+	color: #ED735D;
+	bottom: 0;
+	right: 0;
+}
