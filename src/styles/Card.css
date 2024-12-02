@@ -4,7 +4,7 @@
 }
 
 .popular {
-	display: none;
+	display: block;
 	font-size: 10px;
 	font-weight: 700;
 	position: absolute;
@@ -52,14 +52,14 @@
 }
 
 .product-no-rate {
-	display: none;
+	display: flex;
 	align-items: center;
 	gap: 3px;
 	margin-top: 5px;
 }
 
 .sold {
-	display: none;
+	display: block;
 	position: absolute;
 	font-size: 14px;
 	color: #ED735D;
