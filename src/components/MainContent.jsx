@@ -6,6 +6,8 @@ import Card from './Card';
 
 export default function MainContent() {
 	const [products, setProducts] = useState([]);
+	const [filteredProducts, setFilteredProducts] = useState([]);
+	const [filter, setFilter] = useState('all');
 
 	useEffect(() => {
 		const fetchData = async () => {
@@ -21,13 +23,21 @@ export default function MainContent() {
 		fetchData();
 	}, []);
 
+	useEffect(() => {
+		if (filter === 'all') {
+			setFilteredProducts(products);
+		} else if (filter === 'available') {
+			setFilteredProducts(products.filter(product => product.available));
+		}
+	}, [filter, products]);
+
 	return (
 		<>
 			<div className='main-content'>
 				<Title />
-				<Buttons />
+				<Buttons setFilter={setFilter} currentFilter={filter} />
 				<div className="cards">
-					{products.map(product => (
+					{filteredProducts.map(product => (
 						<Card key={product.id} {...product} />
 					))}
 				</div>
