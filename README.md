@@ -1,8 +1,7 @@
-# React + Vite
+Coffee Collection App
+This project is a simple React-based application for showcasing a coffee product collection. It dynamically fetches product data from an external API and displays each coffee product as a reusable card component. Users can filter products by availability and explore details such as price, rating, popularity, and availability.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Приложение "Коллекция Кофе"
+Этот проект представляет собой простое приложение на React для отображения коллекции кофейных продуктов. Данные о продуктах загружаются из внешнего API и отображаются в виде переиспользуемых карточек. Пользователи могут фильтровать продукты по доступности и изучать такие детали, как цена, рейтинг, популярность и статус наличия.
