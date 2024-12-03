@@ -46,6 +46,10 @@
 	margin-top: 5px;
 }
 
+.rating {
+	font-weight: 00;
+}
+
 .votes small {
 	color: #6F757C;
 	font-weight: 700;

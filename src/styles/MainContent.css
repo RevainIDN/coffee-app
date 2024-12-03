@@ -5,9 +5,9 @@
 	width: 100%;
 	height: auto;
 	background-color: #1B1D1F;
-	margin-top: 150px;
+	margin-top: 10%;
 	margin-bottom: 150px;
-	padding-bottom: 75px;
+	padding: 0 20px 75px 20px;
 	border-radius: 12px;
 }
 
