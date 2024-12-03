@@ -12,14 +12,14 @@ export default function Card({ name, image, price, rating, votes, popular, avail
 				</div>
 				{votes >= 1 &&
 					<div className='product-rate'>
-						<img className='star' src="/public/Star_fill.svg" alt="Star" />
+						<img className='star' src={`${import.meta.env.BASE_URL}Star_fill.svg`} alt="Star" />
 						<p className='rating'>{rating}</p>
 						<p className='votes'><small>({votes} votes)</small></p>
 						{available === false && <p className='sold'>Sold out</p>}
 					</div>}
 				{votes === 0 &&
 					<div className='product-no-rate'>
-						<img className='empty-star' src="/public/Star.svg" alt="Empty star" />
+						<img className='empty-star' src={`${import.meta.env.BASE_URL}Star.svg`} alt="Empty star" />
 						<p className='votes'><small>No ratings</small></p>
 					</div>}
 			</div>

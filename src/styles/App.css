@@ -6,5 +6,5 @@
 }
 
 body {
-  background: top / contain no-repeat url(../public/bg-cafe.jpg);
+  background: top / contain no-repeat url(/bg-cafe.jpg);
 }

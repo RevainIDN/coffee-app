@@ -1,6 +1,7 @@
 .title-cont {
+	padding-top: 75px;
 	width: 500px;
-	background: right / 55% no-repeat url(/public/vector.svg);
+	background: right / 55% no-repeat url(/vector.svg);
 }
 
 .title {
